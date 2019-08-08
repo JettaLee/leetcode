@@ -47,14 +47,15 @@ public class IntersectionOfTwoList {
         }
         return headA;
     }
-}
 
-class ListNode {
-    int val;
-    ListNode next;
+    private class ListNode {
+        int val;
+        ListNode next;
 
-    ListNode(int x) {
-        val = x;
-        next = null;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }
+
