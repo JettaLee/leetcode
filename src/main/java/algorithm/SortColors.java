@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * @author Li Jingwei
  * @date 2019/8/9 上午11:32

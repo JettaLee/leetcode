@@ -1,12 +1,11 @@
 package utils;
 
-import com.alibaba.fastjson.JSONObject;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 若干张发票找出总价大于某个数值的最小组合
  * @author Li Jingwei
  * @date 2019/8/23 上午10:52
  */
@@ -35,8 +34,7 @@ public class FindMinGroup {
     }
 
     public static void main(String[] args) {
-        int[] priceList = {50,100,143,143,109};
-        findMinGroup(priceList, 900);
-        System.out.println(JSONObject.toJSONString(resultArray));
+        int[] priceList = {134,448,316,305};
+        findMinGroup(priceList, 1110);
     }
 }

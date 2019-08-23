@@ -1,4 +1,4 @@
-/**
+package algorithm; /**
  * @author Li Jingwei
  * @date 2019/7/18 下午3:19
  */
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
+ * Your algorithm.MinStack object will be instantiated and called as such:
+ * algorithm.MinStack obj = new algorithm.MinStack();
  * obj.push(x);
  * obj.pop();
  * int param_3 = obj.top();
