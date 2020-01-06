@@ -14,6 +14,20 @@ public class Subsets {
         return result;
     }
 
+    public List<List<Integer>> subsets2(int[] nums) {
+        List<List<Integer>> output = new ArrayList();
+        output.add(new ArrayList<Integer>());
+
+        for (int num : nums) {
+            List<List<Integer>> newSubsets = new ArrayList();
+            for (List<Integer> curr : output) {
+                newSubsets.add(new ArrayList<Integer>(curr){{add(num);}});
+            }
+            output.addAll(newSubsets);
+        }
+        return output;
+    }
+
 
     private void backtrack(List<List<Integer>> result, int[] nums, List<Integer> tmp, int index){
         result.add(new ArrayList<>(tmp));
@@ -25,8 +39,8 @@ public class Subsets {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
-        List<List<Integer>> subsets = new Subsets().subsets(nums);
-        System.out.println();
+        for(int i = (1<<3);i<(1<<4);i++) {
+            System.out.println(Integer.toBinaryString(i).substring(1));
+        }
     }
 }
