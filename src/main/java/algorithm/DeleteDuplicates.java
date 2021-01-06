@@ -1,5 +1,7 @@
 package algorithm;
 
+import domain.ListNode;
+
 /**
  * @author Li Jingwei
  * @date 2019/10/8 上午10:34

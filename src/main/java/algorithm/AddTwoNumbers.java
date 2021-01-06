@@ -1,5 +1,7 @@
 package algorithm;
 
+import domain.ListNode;
+
 /**
  * 2. Add Two Numbers
  * 遇到问题：while循环没有加判断bit != 0；判断两个ListNode如果有一个为0直接返回另一个，这个首先可以去掉，其次不能只判断

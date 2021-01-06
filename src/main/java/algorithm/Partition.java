@@ -1,5 +1,7 @@
 package algorithm;
 
+import domain.ListNode;
+
 /**
  * @author Li Jingwei
  * @date 2019/10/9 下午4:18
@@ -46,13 +48,5 @@ public class Partition {
         new Partition().test();
     }
 
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
 

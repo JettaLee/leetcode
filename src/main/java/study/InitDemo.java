@@ -1,5 +1,11 @@
 package study;
 
+import org.springframework.web.context.request.RequestContextHolder;
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.TreeSet;
+
 /**
  * @author: Li Jingwei
  * @date: 2020/03/10 13:48
@@ -16,6 +22,9 @@ public class InitDemo {
 //        InitA a = new InitA();
 //        System.out.println(InitA.width);
 //        InitA b = new InitA();
+        Hashtable<String, String> h = new Hashtable<>();
+//        HashMap<String, String> h = new HashMap<>();
+        h.put(null,"null");
 
 
     }
